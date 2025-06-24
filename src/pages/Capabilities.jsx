@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact } from 'react-icons/fa';
 
-function Service() {
+function Capabilities() {
   const services = [
     {
       name: 'HTML5',
@@ -48,4 +48,5 @@ function Service() {
   );
 }
 
-export default Service;
+export default Capabilities;
+

@@ -30,7 +30,8 @@ function Header() {
             >
               {item.name}
             </Link>
-          ))}
+          )
+          )}
         </nav>
       </div>
     </header>

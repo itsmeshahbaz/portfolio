@@ -3,7 +3,6 @@ import Edcation from '../component/Edcation'
 import Skills from './Skills'
 import Intro from './Intro'
 import Experience from './Experience'
-
 function About() {
   return (
     <div >

@@ -1,11 +1,12 @@
 import React from 'react'
 import Featur from './Featur'
-import Service from './service'
+import Capabilities from './Capabilities'
+
 
 function Services() {
   return (
     <div >
-      <Service />
+      <Capabilities />
       <Featur />
     </div>
   )
