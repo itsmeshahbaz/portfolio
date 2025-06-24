@@ -19,9 +19,9 @@ function Experience() {
   ];
 
   return (
-    <section className="w-full py-12 px-4 sm:px-6 lg:px-20">
+    <section className="w-full py-12 px-4 sm:px-6 lg:px-20 bg-gradient-to-b">
       <div className="text-center mb-12">
-        <h1 className="text-4xl sm:text-5xl font-bold text-white hover:underline transition-all duration-300">
+        <h1 className="text-4xl sm:text-5xl font-bold text-white underline decoration-blue-500 hover:decoration-cyan-400 transition-all duration-500">
           Experience
         </h1>
       </div>
@@ -30,15 +30,17 @@ function Experience() {
         {experiences.map((exp, index) => (
           <div
             key={index}
-            className="bg-cyan-700 relative shadow-md rounded-lg p-6 border border-gray-400"
+            className="bg-cyan-700 relative shadow-lg rounded-lg p-6 border border-gray-400 transition-transform duration-500 hover:scale-105 hover:shadow-2xl group"
           >
-            <div className="absolute -left-3 top-6 bg-blue-500 p-1.5 rounded-full">
+            <div className="absolute -left-3 top-6 bg-blue-500 p-1.5 rounded-full group-hover:bg-cyan-400 transition-colors duration-300">
               <Icon />
             </div>
-            <time className="text-sm italic text-white">{exp.duration}</time>
-            <h3 className="text-xl font-bold text-white mt-1">{exp.title}</h3>
+            <time className="text-sm italic text-white opacity-80">{exp.duration}</time>
+            <h3 className="text-xl font-bold text-white mt-1 transition-colors duration-300 group-hover:text-cyan-100">
+              {exp.title}
+            </h3>
             <p className="text-white font-medium">{exp.company}</p>
-            <p className="text-white text-justify mt-3">{exp.description}</p>
+            <p className="text-white text-justify mt-3 leading-relaxed">{exp.description}</p>
           </div>
         ))}
       </div>
