@@ -28,7 +28,7 @@ function Capabilities() {
   return (
     <section className="w-full py-16 px-4 sm:px-6 lg:px-20">
       <div className="text-center mb-14">
-        <h2 className="text-4xl sm:text-5xl font-bold cursor-pointer text-cyan-400 hover:underline transition-all duration-300">
+        <h2 className="text-4xl sm:text-5xl font-bold cursor-pointer text-amber-100 hover:underline transition-all duration-300">
           Services
         </h2>
       </div>
