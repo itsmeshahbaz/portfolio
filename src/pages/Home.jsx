@@ -39,9 +39,10 @@ function Home() {
 <FloatingWhatsApp 
 phoneNumber='+923194573046'
 accountName='M. Shahbaz'
-avatar='../img6.jpeg'
+avatar='../imgs/img6.jpeg'
 chatMessage='Hi! How are you'
 statusMessage='Availible 24/7'
+darkMode={true}
 /> 
     </div>
   )
