@@ -17,22 +17,6 @@ function Home() {
           <p class="leading-relaxed text-white">All Team Members with Team Leader</p>
         </div>
       </div>
-      <div class="flex flex-wrap mx-2">
-        <div class="px-2 w-1/2">
-          <div class="flex flex-wrap w-full  sm:py-24 py-16 sm:px-10 px-6 relative">
-            <img alt="gallery" class="w-full object-cover h-100 object-center block absolute inset-0" src="../imgs/img4.jpeg"/>
-            <div class="text-center relative z-10 w-full">
-            </div>
-          </div>
-        </div>
-        <div class="px-2 w-1/2">
-          <div class="flex flex-wrap w-full sm:py-24 py-16 sm:px-10 px-6 relative">
-            <img alt="gallery" class="w-full object-cover h-100 object-center block  absolute inset-0" src="../imgs/img9.jpeg"/>
-            <div class="text-center relative z-10 w-full">
-            </div>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
 </section>
