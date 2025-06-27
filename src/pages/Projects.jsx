@@ -23,15 +23,15 @@ function Projects() {
   return (
     <section className="w-full px-4 sm:px-6 lg:px-20 ">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold text-white">Projects</h2>
-        <p className="text-white mt-2">Some of the projects I have worked on recently.</p>
+        <h2 className="text-4xl font-bold text-white hover:text-green-600">Projects</h2>
+        <p className="text-white mt-2 text-2xl">Some of the projects I have worked on recently.</p>
       </div>
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <div
             key={index}
-            className="bg-cyan-900 rounded-2xl shadow-md p-6 transition hover:shadow-xl"
+            className="bg-cyan-900 rounded-2xl shadow-md p-6 transition hover:shadow-amber-300"
           >
             <h3 className="text-xl font-semibold text-gray-800">{project.title}</h3>
             <p className="text-gray-200 mt-2 mb-4">{project.description}</p>
