@@ -1,6 +1,7 @@
 import React from 'react'
 import Intro from './Intro'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
+import Projects from './Projects'
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
     </div>
   </div>
 </section>
+<Projects />
 <FloatingWhatsApp 
 phoneNumber='+923194573046'
 accountName='M. Shahbaz'
