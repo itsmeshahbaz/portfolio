@@ -4,17 +4,17 @@ import React from 'react';
 const projects = [
   {
     title: 'Portfolio Website',
-    description: 'A personal portfolio built with React.js and Tailwind CSS.',
+    description: 'A personal portfolio built with React.js and Tailwind CSS and Node.js..',
     link: 'https://whoseshahbaz.vercel.app/',
   },
   {
     title: 'pointlinestudios',
-    description: 'A full-stack shopping website with React and Node.js.',
+    description: 'A full-stack shopping website with React ',
     link: 'https://pointlinestudio.com/',
   },
   {
     title: 'Leathercraftss',
-    description: 'A real-time chat application using Socket.io and React.',
+    description: 'A real-time chat application using and React.',
     link: 'https://leathercraftss.com/',
   },
   {
