@@ -17,6 +17,11 @@ const projects = [
     description: 'A real-time chat application using Socket.io and React.',
     link: 'https://leathercraftss.com/',
   },
+  {
+    title: 'Meal Mate',
+    description: 'A full-stack catering website with React',
+    link: 'https://leathercraftss.com/',
+  },
 ];
 
 function Projects() {

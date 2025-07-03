@@ -5,7 +5,7 @@ import Capabilities from './Capabilities'
 
 function Services() {
   return (
-    <div >
+    <div>
       <Capabilities />
       <Featur />
     </div>

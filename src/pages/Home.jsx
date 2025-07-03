@@ -5,7 +5,7 @@ import Projects from './Projects'
 
 function Home() {
   return (
-    <div >
+    <div>
       <Intro />
 {/* section */}
 <section >
