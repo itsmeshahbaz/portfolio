@@ -20,7 +20,7 @@ const projects = [
   {
     title: 'Meal Mate',
     description: 'A full-stack catering website with React',
-    link: 'https://leathercraftss.com/',
+    link: 'https://mealmatepk.vercel.app/',
   },
 ];
 
