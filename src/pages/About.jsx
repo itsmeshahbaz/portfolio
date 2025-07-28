@@ -1,12 +1,10 @@
 import React from 'react'
 import Edcation from '../component/Edcation'
 import Skills from './Skills'
-import Intro from './Intro'
 import Experience from './Experience'
 function About() {
   return (
     <div >
-      <Intro />
       <div>
         <section class=" text-black body-font ">
   <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">

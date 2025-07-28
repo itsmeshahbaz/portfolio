@@ -2,7 +2,6 @@ import React from 'react'
 import Intro from './Intro'
 import { FloatingWhatsApp } from 'react-floating-whatsapp'
 import Projects from './Projects'
-
 function Home() {
   return (
     <div>

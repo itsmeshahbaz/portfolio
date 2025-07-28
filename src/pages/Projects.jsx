@@ -38,7 +38,7 @@ function Projects() {
             key={index}
             className="bg-cyan-900 rounded-2xl shadow-md p-6 transition hover:shadow-amber-300"
           >
-            <h3 className="text-xl font-semibold text-gray-800">{project.title}</h3>
+            <h3 className="text-xl font-semibold text-gray-200">{project.title}</h3>
             <p className="text-gray-200 mt-2 mb-4">{project.description}</p>
             <a
               href={project.link}

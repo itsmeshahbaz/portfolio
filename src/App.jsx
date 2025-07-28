@@ -13,7 +13,6 @@ function App() {
   return (
     // <div className="min-h-screen bg-gradient-to-br from-cyan-800 via-gray-600 via-30% to-black text-white">
     <div className="min-h-screen bg-gradient-to-br from-gray-600 via-gray-700 via-gray-800 via-black via-gray-700 via-gray-800 to-gray-600 text-white">
-      
       <BrowserRouter>
     <Header/>
     <Routes>
